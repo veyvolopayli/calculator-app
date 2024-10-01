@@ -1,4 +1,4 @@
-import '../CalcButton.css'
+import './CalcButton.css'
 
 export default function CalcButton({label, clickAction}) {
     return (

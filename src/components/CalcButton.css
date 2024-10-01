@@ -1,23 +1,22 @@
 .calculator-button {
-    background-color: white;
-    border: 2px solid black;
-    color: black;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: #131a26;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
-    border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.2s;
 }
 
 .calculator-button:hover {
-    background-color: #f0f0f0;
+    background-color: #2e3847;
 }
 
 .calculator-button:active {
-    background-color: #e0e0e0;
+    background-color: #2e3847;
     transform: scale(0.98);
 }
